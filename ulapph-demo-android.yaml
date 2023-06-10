@@ -395,6 +395,12 @@ configs:
      status: Enable
      value: YOUR-WATSON-API-KEY
 
+# Watson API Keys
+   - item: IBM_WATSON_ASS_API_KEY
+     format: Text
+     status: Enable
+     value: YOUR-WATSON-API-KEY
+
    - item: IBM_WATSON_ASS_DEF_WK_ID
      format: Text
      status: Enable
