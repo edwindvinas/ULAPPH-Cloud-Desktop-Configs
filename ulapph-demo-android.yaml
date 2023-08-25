@@ -389,11 +389,17 @@ configs:
      status: Enable
      value: 05:00:00
 
-# Watson API Keys
-   - item: IBM_WATSON_ASS_API_KEY
+# OpenAI API Keys (GPT03)
+   - item: OPEN_AI_API_KEY
      format: Text
      status: Enable
-     value: YOUR-WATSON-API-KEY
+     value: YOUR-OPEN_AI_API_KEY
+
+# OpenAI API Keys (GPT-4)
+   - item: OPEN_AI_API_KEY4
+     format: Text
+     status: Enable
+     value: YOUR-OPEN_AI_API_KEY4
 
 # Watson API Keys
    - item: IBM_WATSON_ASS_API_KEY
