@@ -1453,3 +1453,28 @@ configs:
 #SYS_STATELESS_SERVER = true
 #SYS_FILE_CACHE_ENABLE = false
 #SYS_REDISLABS_CACHE_ENABLE = true
+
+   - item: SYS_POSTGRESQL_HOST
+     format: Text
+     status: Enable
+     value: x.x.x.x
+
+   - item: SYS_POSTGRESQL_PORT
+     format: Number
+     status: Enable
+     value: 0000
+
+   - item: SYS_POSTGRESQL_USER
+     format: Text
+     status: Enable
+     value: dbuser
+
+   - item: SYS_POSTGRESQL_PASS
+     format: Text
+     status: Enable
+     value: dbpass
+
+   - item: SYS_POSTGRESQL_DB
+     format: Text
+     status: Enable
+     value: dbname
