@@ -1453,6 +1453,15 @@ configs:
 #SYS_STATELESS_SERVER = true
 #SYS_FILE_CACHE_ENABLE = false
 #SYS_REDISLABS_CACHE_ENABLE = true
+   - item: SYS_PRIVATE_LLM
+     format: Text
+     status: Enable
+     value: 34.124.215.227
+
+   - item: SYS_LOCAL_VEC_ENABLE
+     format: Flag
+     status: Enable
+     value: false
 
    - item: SYS_POSTGRESQL_HOST
      format: Text
