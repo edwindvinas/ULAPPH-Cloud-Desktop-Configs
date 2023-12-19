@@ -1456,7 +1456,7 @@ configs:
    - item: SYS_PRIVATE_LLM
      format: Text
      status: Enable
-     value: 34.124.215.227
+     value: x.x.x.x
 
    - item: SYS_LOCAL_VEC_ENABLE
      format: Flag
