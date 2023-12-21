@@ -4,13 +4,13 @@ termux-setup-storage
 
 echo "Installing Termux API..."
 echo "This is separate from the installation of Termux API in F-Droid..."
-pkg install termux-api
+pkg install termux-api --yes
 
 echo "Executing apt update && apt upgrade..."
-apt update && apt upgrade
+apt update && apt upgrade --yes
 
 echo "Executing pkg install openssh..."
-pkg install openssh
+pkg install openssh --yes
 
 echo "Running ssh..."
 sshd
