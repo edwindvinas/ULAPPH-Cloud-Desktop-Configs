@@ -21,6 +21,9 @@ passwd
 echo "Termux username is..."
 whoami
 
+echo "Termux IP address is here..."
+ifconfig | grep netmask
+
 echo "NOTE: After this is done, execute the script in Windows to configure SSH access from Windows to Android..."
 
 
