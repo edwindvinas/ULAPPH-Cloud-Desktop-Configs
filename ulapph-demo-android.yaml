@@ -389,18 +389,6 @@ configs:
      status: Enable
      value: 05:00:00
 
-# OpenAI API Keys (GPT03)
-   - item: OPEN_AI_API_KEY
-     format: Text
-     status: Enable
-     value: YOUR-OPEN_AI_API_KEY
-
-# OpenAI API Keys (GPT-4)
-   - item: OPEN_AI_API_KEY4
-     format: Text
-     status: Enable
-     value: YOUR-OPEN_AI_API_KEY4
-
 # Watson API Keys
    - item: IBM_WATSON_ASS_API_KEY
      format: Text
@@ -1020,6 +1008,16 @@ configs:
      format: Text
      status: Enable
      value: https://YOUR-GCP-DC-NAME-YOUR-SERVER-NAME.cloudfunctions.net/function-1 
+
+   - item: GOOGLE_GENAI_API_KEY
+     format: Text
+     status: Enable
+     value: YOUR-GENAI-API-KEY
+
+   - item: GOOGLE_GENAI_API_URL
+     format: Text
+     status: Enable
+     value: https://YOUR-GCP-DC-NAME-YOUR-SERVER-NAME.cloudfunctions.net/function-2
 
    - item: FIREBASE_URL
      format: Text
