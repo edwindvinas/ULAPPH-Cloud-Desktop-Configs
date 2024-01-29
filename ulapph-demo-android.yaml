@@ -53,6 +53,11 @@ configs:
      status: Enable
      value: YOUR-CUSTOM-SEARCH-TEMPLATE
 
+   - item: SYSTEM_CCTV_GENAI_LOGS
+     format: Text
+     status: Enable
+     value: YOUR-CCTV-GENAI-LOGS
+
 # If stateless, can disable/enable login screen
    - item: SYS_LOGIN_SCREEN_ENABLED
      format: Flag
