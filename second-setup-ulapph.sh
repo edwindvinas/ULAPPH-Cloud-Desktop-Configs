@@ -13,5 +13,6 @@ pkg install nginx --yes
 pkg install termux-services --yes
 pkg install cronie --yes
 pkg install golang --yes
+pkg install imagemagick
 go version 
 
