@@ -14,5 +14,7 @@ pkg install termux-services --yes
 pkg install cronie --yes
 pkg install golang --yes
 pkg install imagemagick
+pkg install inotify-tools
+pip install urlextract
 go version 
 
